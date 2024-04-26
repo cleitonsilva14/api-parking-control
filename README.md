@@ -12,5 +12,6 @@ Pacotes:
 - repositories
 - services
 
-Usando Paginação no getAll()
-Usando BeanUtils
+Exemplos:
+	- Usando Paginação no getAll()
+	- Usando BeanUtils
