@@ -1,0 +1,37 @@
+Spring Boot | Curso Completo 2022
+
+Inversão de Controle (IoC): é um padrão de projeto, em que um objeto
+apenas declara suas dependências sem cria-las e delega a tarefa de contruir as
+dependências a um Container IoC(Core Container). O Spring Framework implementa isso por Injeção de Dependência. Ele aplica a Inversão de Controle quando necessário.
+
+- Bean: é um objeto que é instanciado, montado e gerenciado por um container do Spring
+  através da Inversão de Controler (IoC) e injeção de dependências.
+  
+  Exemplos dos Estereótipos dos Spring: @Component, @Service, @Repository, @Controller
+	- @Component é mais genérico!
+	- Servem para indicar para o Spring que será uma classe que ele vai gerenciar.
+	
+Spring Boot: 
+	SPRING FRAMEWORK + SERVIDOR EMBUTIDO (TomCat ou Netty) + 
+	XML <bean> Configuration ou @Configuration 
+	= SPRING BOOT  
+	
+	TomCat = Spring MVC
+	Netty = Spring WebFlux: Programação Reativa
+	
+	
+Projeto:
+Parking Control API
+- Spring Boot
+- Spring MVC
+- Spring Data JPA
+- Spring Validation
+
+  Vaga de Estacionamento (Parking Spot)
+  - Get - Com paginação
+  - Get - único registro
+  - Post - Enviar novo
+  - Put - Atualizar registro
+  - Delete - deletar registro
+  
+  
