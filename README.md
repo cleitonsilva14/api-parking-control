@@ -13,5 +13,5 @@ Pacotes:
 - services
 
 Exemplos:
-	- Usando Paginação no getAll()
-	- Usando BeanUtils
+- Usando Paginação no getAll()
+- Usando BeanUtils
